@@ -1,0 +1,44 @@
+domain:
+  country:
+    - Japan
+    - USA
+  manufacturer:
+    - Honda
+    - Toyota
+    - Civic
+  color:
+    - Blue
+    - Green
+    - Red
+  decade:
+    - 0
+    - 1
+    - 2
+  type:
+    - C
+    - S
+instances:
+  - country: Japan
+    manufacturer: Honda
+    color: Blue
+    decade: 1
+    type: C
+    label: 1
+  - country: Japan
+    manufacturer: Toyota
+    color: Green
+    decade: 0
+    type: S
+    label: 0
+  - country: Japan
+    manufacturer: Toyota
+    color: Blue
+    decade: 2
+    type: C
+    label: 1
+  - country: USA
+    manufacturer: Civic
+    color: Red
+    decade: 1
+    type: C
+    label: 0

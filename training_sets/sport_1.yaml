@@ -1,0 +1,49 @@
+domain:
+  sky:
+    - sunny
+    - cloudy
+    - rainy
+  air_temp:
+    - warm
+    - cold
+  humidity:
+    - normal
+    - high
+  wind:
+    - strong
+    - weak
+  water:
+    - warm
+    - cool
+  forecast:
+    - same
+    - change
+instances:
+  - sky: sunny
+    air_temp: warm
+    humidity: normal
+    wind: strong
+    water: warm
+    forecast: same
+    label: 1
+  - sky: sunny
+    air_temp: warm
+    humidity: high
+    wind: strong
+    water: warm
+    forecast: same
+    label: 1
+  - sky: rainy
+    air_temp: cold
+    humidity: high
+    wind: strong
+    water: warm
+    forecast: change
+    label: 0
+  - sky: sunny
+    air_temp: warm
+    humidity: high
+    wind: strong
+    water: cool
+    forecast: change
+    label: 1

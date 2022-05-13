@@ -1,0 +1,76 @@
+domain:
+  p1_sex:
+    - male
+    - female
+  p1_hair_color:
+    - black
+    - brown
+    - blonde
+  p1_height:
+    - tall
+    - medium
+    - short
+  p1_nationality:
+    - US
+    - French
+    - German
+    - Irish
+    - Indian
+    - Japanese
+    - Portuguese
+  p2_sex:
+    - male
+    - female
+  p2_hair_color:
+    - black
+    - brown
+    - blonde
+  p2_height:
+    - tall
+    - medium
+    - short
+  p2_nationality:
+    - US
+    - French
+    - German
+    - Irish
+    - Indian
+    - Japanese
+    - Portuguese
+instances:
+  - p1_sex: male
+    p1_hair_color: brown
+    p1_height: tall
+    p1_nationality: US
+    p2_sex: female
+    p2_hair_color: black
+    p2_height: short
+    p2_nationality: US
+    label: 1
+  - p1_sex: male
+    p1_hair_color: brown
+    p1_height: short
+    p1_nationality: French
+    p2_sex: female
+    p2_hair_color: black
+    p2_height: short
+    p2_nationality: US
+    label: 1
+  - p1_sex: female
+    p1_hair_color: brown
+    p1_height: tall
+    p1_nationality: German
+    p2_sex: female
+    p2_hair_color: black
+    p2_height: short
+    p2_nationality: Indian
+    label: 0
+  - p1_sex: male
+    p1_hair_color: brown
+    p1_height: tall
+    p1_nationality: Irish
+    p2_sex: female
+    p2_hair_color: brown
+    p2_height: short
+    p2_nationality: Irish
+    label: 1

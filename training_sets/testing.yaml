@@ -1,0 +1,23 @@
+domain:
+  a1:
+    - T
+    - F
+  a2:
+    - T
+    - F
+  a3:
+    - T
+    - F
+instances:
+  - a1: T
+    a2: F
+    a3: T
+    label: 0
+  - a1: F
+    a2: T
+    a3: T
+    label: 0
+  - a1: T
+    a2: T
+    a3: T
+    label: 1
